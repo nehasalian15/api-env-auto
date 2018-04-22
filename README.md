@@ -11,11 +11,16 @@ The ApiEnvAuto library will help setup api environment. All users have to do is 
 
 Using npm:
 ```shell
+// if git is not installed 
 $ sudo apt-get update
 $ sudo apt-get upgrade
 $ sudo apt-get install git
-$ git clone https://github.com/nehasalian15/api-env-auto.git
+
+// if npm is not installed
 $ npm i -g npm
+
+
+$ git clone https://github.com/nehasalian15/api-env-auto.git
 $ npm install
 ```
 
