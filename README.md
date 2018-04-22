@@ -33,7 +33,7 @@ Result:
 Database File Created
 Routes Get File Created
 GET : {
-/apis/demo   // this is the api route path fot get apis
+/apis/demo   // this is the api route path for get apis
 }
 POST : {
 }
@@ -73,6 +73,7 @@ $ node index.js -m <ip-address>/<db_name>
 Example:
 ```shell
 $ node index.js -m 127.0.0.1/db_name
+```
 
 Apis :
 ```js
@@ -101,7 +102,7 @@ function demo(req, reply) {
 // this sample demo.js file will be made on setting up the environment for the first time.
 ```
 
-## Options
+# Options
 -p : Port Number, Default : 3000
 -h : Host Name, Default : 127.0.0.1
 -s : Secret Key, Default : mysecret
