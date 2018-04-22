@@ -103,10 +103,10 @@ function demo(req, reply) {
 ```
 
 # Options
--p : Port Number, Default : 3000
--h : Host Name, Default : 127.0.0.1
--s : Secret Key, Default : mysecret
--g : For Postgresql DB Connection
--c : For Couchbase DB Connection
--r : For Redis DB Connection
--m : For MongoDB Connection
+-p : Port Number, Default : 3000 <br/>
+-h : Host Name, Default : 127.0.0.1 <br/>
+-s : Secret Key, Default : mysecret <br/>
+-g : For Postgresql DB Connection <br/>
+-c : For Couchbase DB Connection <br/>
+-r : For Redis DB Connection <br/>
+-m : For MongoDB Connection <br/>
